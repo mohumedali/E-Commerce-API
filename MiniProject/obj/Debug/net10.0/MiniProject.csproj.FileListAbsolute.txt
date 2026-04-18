@@ -1,5 +1,3 @@
-C:\Users\DELL\source\repos\MiniProject\MiniProject\bin\Debug\net10.0\appsettings.Development.json
-C:\Users\DELL\source\repos\MiniProject\MiniProject\bin\Debug\net10.0\appsettings.json
 C:\Users\DELL\source\repos\MiniProject\MiniProject\bin\Debug\net10.0\MiniProject.staticwebassets.endpoints.json
 C:\Users\DELL\source\repos\MiniProject\MiniProject\bin\Debug\net10.0\MiniProject.exe
 C:\Users\DELL\source\repos\MiniProject\MiniProject\bin\Debug\net10.0\MiniProject.deps.json
@@ -165,3 +163,6 @@ C:\Users\DELL\source\repos\MiniProject\MiniProject\obj\Debug\net10.0\MiniProject
 C:\Users\DELL\source\repos\MiniProject\MiniProject\obj\Debug\net10.0\MiniProject.genruntimeconfig.cache
 C:\Users\DELL\source\repos\MiniProject\MiniProject\obj\Debug\net10.0\ref\MiniProject.dll
 C:\Users\DELL\source\repos\MiniProject\MiniProject\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\DELL\source\repos\MiniProject\MiniProject\obj\Debug\net10.0\MiniProject.sourcelink.json
+C:\Users\DELL\source\repos\MiniProject\MiniProject\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\DELL\source\repos\MiniProject\MiniProject\bin\Debug\net10.0\appsettings.json
