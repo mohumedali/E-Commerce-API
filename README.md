@@ -130,8 +130,8 @@ This project is not just CRUD — it demonstrates:
 
 ## 👨‍💻 Author
 
-**Mido Aliii**
-Backend Developer | ASP.NET Core | MEAN Stack Learner
+**Mohamed Ali**
+Backend Developer | ASP.NET Core 
 
 ---
 
