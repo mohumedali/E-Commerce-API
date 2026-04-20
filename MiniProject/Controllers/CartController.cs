@@ -37,5 +37,29 @@ namespace MiniProject.Controllers
                 return BadRequest(inner);
             }
         }
+        [HttpPost("Get-Cart")]
+        public async Task<IActionResult> GetCart([FromForm] int UserId)
+        {
+            var cart = await _cartServices.GetCart(UserId);
+            return Ok(cart);
+        }
+        [HttpDelete("Delete-Cart-Item")]
+        public async Task<IActionResult> RemoveCartItem(int UserId, int ProductId)
+        {
+            var res = await _cartServices.RemoveCartItem(UserId, ProductId);
+            return Ok(res);
+        }
+        [HttpPut("updated-cart-item")]
+        public async Task<IActionResult>UpdateCartItem(int UserId,[FromForm] UpdateCartItemDto dto)
+        {
+            var res = await _cartServices.UpdateCartItem(UserId, dto);
+            return Ok(res);
+        }
+        [HttpDelete("DeleteAll-Cart-Item")]
+        public async Task<IActionResult> DeleteAllCartItem(int UserId)
+        {
+            var res = await _cartServices.DeleteAllCartItems(UserId);
+            return Ok(res);
+        }
     }
 }

@@ -9,6 +9,7 @@ namespace MiniProject.Repositories
        Task AddToCart(Cart cart);
         Task AddToCartItems(CartItem cartItem);
 
+        Task<Cart?> GetCartByUserId(int UserId);
         Task SaveChanges();
 
     }

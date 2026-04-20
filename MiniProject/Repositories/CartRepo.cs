@@ -30,6 +30,15 @@ namespace MiniProject.Repositories
         {
             await _dbContext.CartItem.AddAsync(cartItem);
         }
+        public async Task<Cart?> GetCartByUserId(int UserId)
+        {
+                 return await _dbContext.Cart
+                .Include(c=>c.CartItems)
+                .ThenInclude(ci=>ci.Product)
+                .FirstOrDefaultAsync(u=>u.UserId == UserId);
+            
+        }
+        
         public async Task SaveChanges()
         {
             await _dbContext.SaveChangesAsync();
